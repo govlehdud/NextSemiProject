@@ -1,41 +1,18 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+SemiProject
 
-## Getting Started
+git repository부터 vercel 배포까지!!
 
-First, run the development server:
+<h1>프로젝트 생성</h1>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. git reposiroty에 new 생성 후 'mit' license 넣기
+2. cmd를 열어 npx create-next-app@latest --typescript 입력
+3. project명 입력후 나머지 엔터로 입력
+4. cursor로 폴더열고 npm run dev으로 정상 확인
+5. 아래 3개를 제외한 globals.css 내용 삭제
+   @tailwind base;
+   @tailwind components;
+   @tailwind utilities;
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-# Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-
-# NextSemiProject
-
-> > > > > > > e3ffa804d4dffca7ee37d1ae691c0612289f998e
+6. 만든 프로젝트와 git repository와 연결하기
+   - git remote add origin {깃주소 넣기} 엔터
+7. pr받고 변경사항 commit & push 넣기
